@@ -1,21 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c9ZCIzBtL9lqiw9NAolmmuOQ8bjmbtbEO7HYfKu9HGmf8cny/L//T4DSY/J8s81HeYGYkmbsHQk46L6sgEJz9Q==",
+  "dgSpecHash": "Vo7HAziIS5sDQDUcQZKCztaVFoq1Zs3eQFP4WZWEUz6o37/lBPI2hRCmn43gqKDaUjeLGXKck8/G2hUV08mijg==",
   "success": true,
   "projectFilePath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\sneyder\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
-    "C:\\Users\\sneyder\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
-    "C:\\Users\\sneyder\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.10\\microsoft.entityframeworkcore.analyzers.7.0.10.nupkg.sha512",
-    "C:\\Users\\sneyder\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\sneyder\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
-    "C:\\Users\\sneyder\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\sneyder\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
-    "C:\\Users\\sneyder\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\sneyder\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
-    "C:\\Users\\sneyder\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\sneyder\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
-    "C:\\Users\\sneyder\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

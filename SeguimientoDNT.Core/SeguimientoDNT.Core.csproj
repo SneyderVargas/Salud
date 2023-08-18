@@ -6,12 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Moldes\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\SeguimientoDNT.Infra\SeguimientoDNT.Infra.csproj" />
-  </ItemGroup>
-
 </Project>

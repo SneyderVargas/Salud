@@ -216,6 +216,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "SeguimientoDNT.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/SeguimientoDNT.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SeguimientoDNT.Core.dll": {}
+        }
       }
     }
   },
@@ -556,12 +566,18 @@
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "SeguimientoDNT.Core/1.0.0": {
+      "type": "project",
+      "path": "../SeguimientoDNT.Core/SeguimientoDNT.Core.csproj",
+      "msbuildProject": "../SeguimientoDNT.Core/SeguimientoDNT.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.10",
-      "Microsoft.Extensions.Configuration.Abstractions >= 7.0.0"
+      "Microsoft.Extensions.Configuration.Abstractions >= 7.0.0",
+      "SeguimientoDNT.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -589,7 +605,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj": {
+              "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

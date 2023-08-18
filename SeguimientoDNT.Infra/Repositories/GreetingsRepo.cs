@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SeguimientoDNT.Core.Interfaces.Repositories;
+using SeguimientoDNT.Core.Moldes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +8,16 @@ using System.Threading.Tasks;
 
 namespace SeguimientoDNT.Infra.Repositories
 {
-    public class GreetingsRepo
+    public class GrertingsRepo : IGrertingsRepo
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
+        public Task<IEnumerable<Greetings>> GetGreetings()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> SetGreetings()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

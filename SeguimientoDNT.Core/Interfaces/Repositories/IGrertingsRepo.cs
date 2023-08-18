@@ -1,4 +1,4 @@
-﻿using SeguimientoDNT.Infra.Repositories;
+﻿using SeguimientoDNT.Core.Moldes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ namespace SeguimientoDNT.Core.Interfaces.Repositories
 {
     public interface IGrertingsRepo
     {
-        Task<IEnumerable<GreetingsRepo>> GetGreetings();
+        Task<IEnumerable<Greetings>> GetGreetings();
         Task<bool> SetGreetings();
     }
 }
