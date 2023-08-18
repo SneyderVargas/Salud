@@ -4,6 +4,128 @@
     "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT\\SeguimientoDNT.Api.csproj": {}
   },
   "projects": {
+    "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj",
+        "projectName": "SeguimientoDNT.Core",
+        "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj",
+        "packagesPath": "C:\\Users\\sneyder\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sneyder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj": {
+                "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj",
+        "projectName": "SeguimientoDNT.Infra",
+        "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj",
+        "packagesPath": "C:\\Users\\sneyder\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sneyder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT\\SeguimientoDNT.Api.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,7 +148,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj": {
+                "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

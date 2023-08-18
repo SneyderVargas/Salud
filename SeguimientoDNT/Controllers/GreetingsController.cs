@@ -1,12 +1,21 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
+using SeguimientoDNT.Core.Interfaces.Repositories;
 
 namespace SeguimientoDNT.Api.Controllers
 {
     public class GreetingsController : Controller
     {
-        public IActionResult Index()
+        private readonly IGrertingsRepo _grertingsRepo;
+
+        public GreetingsController(IGrertingsRepo _grertingsRepo)
         {
-            return View();
+            _grertingsRepo = _grertingsRepo;
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetGreetings()
+        {
+            return Ok(await _grertingsRepo.GetGreetings());
         }
     }
 }

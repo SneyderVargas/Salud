@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace SeguimientoDNT.Infra.Repositories
 {
-    internal class GreetingsRepo
+    public class GreetingsRepo
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }

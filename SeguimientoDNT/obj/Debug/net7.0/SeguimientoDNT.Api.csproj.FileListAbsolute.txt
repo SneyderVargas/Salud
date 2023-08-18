@@ -6,10 +6,16 @@ C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\Seg
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\SeguimientoDNT.Api.dll
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\SeguimientoDNT.Api.pdb
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\SeguimientoDNT.Core.dll
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\SeguimientoDNT.Infra.dll
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\SeguimientoDNT.Core.pdb
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\SeguimientoDNT.Infra.pdb
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\obj\Debug\net7.0\SeguimientoDNT.Api.csproj.AssemblyReference.cache
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\obj\Debug\net7.0\SeguimientoDNT.Api.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\obj\Debug\net7.0\SeguimientoDNT.Api.AssemblyInfoInputs.cache

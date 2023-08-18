@@ -1,0 +1,12 @@
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\bin\Debug\net7.0\SeguimientoDNT.Infra.deps.json
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\bin\Debug\net7.0\SeguimientoDNT.Infra.dll
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\bin\Debug\net7.0\SeguimientoDNT.Infra.pdb
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.csproj.AssemblyReference.cache
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.AssemblyInfoInputs.cache
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.AssemblyInfo.cs
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.csproj.CoreCompileInputs.cache
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.dll
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\obj\Debug\net7.0\refint\SeguimientoDNT.Infra.dll
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.pdb
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\obj\Debug\net7.0\ref\SeguimientoDNT.Infra.dll
