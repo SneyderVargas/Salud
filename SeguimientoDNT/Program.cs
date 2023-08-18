@@ -1,3 +1,8 @@
+using MySql.Data.MySqlClient;
+using SeguimientoDNT.Core.Interfaces.Repositories;
+using SeguimientoDNT.Infra;
+using SeguimientoDNT.Infra.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,7 +12,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//builder.Services.AddSingleton
+var mySQLConfiguration = new DbContext(builder.Configuration.GetConnectionString("DefaultConnection"));
+builder.Services.AddSingleton(mySQLConfiguration);
+builder.Services.AddScoped<IGrertingsRepo, GrertingsRepo>();
 
 var app = builder.Build();
 
