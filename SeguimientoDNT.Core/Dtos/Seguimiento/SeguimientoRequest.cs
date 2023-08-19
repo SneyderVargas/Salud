@@ -12,11 +12,11 @@ namespace SeguimientoDNT.Core.Dtos.Persona
     {
         [Required(ErrorMessage = SecurityMsg.RequiredDefault)]
         public int IdPersona { get; set; }
-        [Required(ErrorMessage = SecurityMsg.RequiredDefault)]
+        [WebEstadoVitalValidationAttribute]
         public string EstadoVital { get; set; }
         [Required(ErrorMessage = SecurityMsg.RequiredDefault)]
         public DateTime? FechaDefuncion { get; set; }
-        [Required(ErrorMessage = SecurityMsg.RequiredDefault)]
+        [WebUbicacionDefuncionValidationAttribute]
         public string UbicacionDefuncion { get; set; }
         [Required(ErrorMessage = SecurityMsg.RequiredDefault)]
         public string CodLugarAtencion { get; set; }
@@ -44,5 +44,33 @@ namespace SeguimientoDNT.Core.Dtos.Persona
         public string OtroTratamiento { get; set; }
         [Required(ErrorMessage = SecurityMsg.RequiredDefault)]
         public DateTime? FechaRegistro { get; set; }
+    }
+
+    internal class WebEstadoVitalValidationAttribute : ValidationAttribute
+    {
+        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+        {
+            string data = (string)value;
+
+            if (data != "Vivo" && data != "Fallecido")
+            {
+                return new ValidationResult("El campo estado vital debe tener alguno estado en: Vivo o Fallecido"); // La validación falla si las condiciones no se cumplen
+            }
+            return ValidationResult.Success;
+        }
+    }
+
+    internal class WebUbicacionDefuncionValidationAttribute : ValidationAttribute
+    {
+        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+        {
+            string data = (string)value;
+
+            if (data != "IPS" && data != "Hogar")
+            {
+                return new ValidationResult("El campo Ubicación Defunción debe tener alguno estado en: IPS o Hogar"); // La validación falla si las condiciones no se cumplen
+            }
+            return ValidationResult.Success;
+        }
     }
 }

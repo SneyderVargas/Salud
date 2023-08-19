@@ -21,7 +21,7 @@ namespace SeguimientoDNT.Infra.Repositories
             if (item == null)
                 return (false, name);
             if (item.Items.Count == 0)
-                return (false, name);
+                return (true, name);
             var itemEcontrado = item.Items.FirstOrDefault(item => item.Codigo == code);
             if (itemEcontrado == null)
                 return (false, name);
