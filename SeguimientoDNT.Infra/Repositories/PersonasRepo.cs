@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace SeguimientoDNT.Infra.Repositories
 {
-    public class GrertingsRepo : IGrertingsRepo
+    public class PersonasRepo : IPersonasRepo
     {
         private readonly DbContext _connectionString;
-        public GrertingsRepo(DbContext connectionString)
+        public PersonasRepo(DbContext connectionString)
         {
             _connectionString = connectionString;
         }
@@ -22,14 +22,24 @@ namespace SeguimientoDNT.Infra.Repositories
             return new MySqlConnection(_connectionString.ConnectionString);
         }
 
-        public Task<IEnumerable<Greetings>> GetGreetings()
+        public Task<IEnumerable<Personas>> GetPersona(int id)
         {
-            var db = dbConnection();
-            var sql = @"SELECT id, name FROM tableprueba";
-            return db.QueryAsync<Greetings>(sql, new {});
+            throw new NotImplementedException();
         }
 
-        public Task<bool> SetGreetings()
+        public Task<IEnumerable<Personas>> GetPersonas()
+        {
+            var db = dbConnection();
+            var sql = @"SELECT * FROM db_proyect.seguimientos;";
+            return db.QueryAsync<Personas>(sql, new { });
+        }
+
+        public Task<(bool Succeeded, string Message)> SetPersonas(Personas personas)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<(bool Succeeded, string Message)> UpdatePersona(Personas personas)
         {
             throw new NotImplementedException();
         }

@@ -6,18 +6,18 @@ namespace SeguimientoDNT.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class GreetingsController : Controller
+    public class PersonasController : Controller
     {
-        private readonly IGrertingsRepo _grertingsRepo;
+        private readonly IPersonasRepo _personasRepo;
 
-        public GreetingsController(IGrertingsRepo grertingsRepo)
+        public PersonasController(IPersonasRepo personasRepo)
         {
-            _grertingsRepo = grertingsRepo;
+            _personasRepo = personasRepo;
         }
         [HttpGet]
         public async Task<IActionResult> GetGreetings()
         {
-            return Ok(await _grertingsRepo.GetGreetings());
+            return Ok(await _personasRepo.GetPersonas());
         }
     }
 }
