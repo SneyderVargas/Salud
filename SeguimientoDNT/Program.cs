@@ -17,6 +17,7 @@ builder.Services.AddSwaggerGen();
 var mySQLConfiguration = new DbContext(builder.Configuration.GetConnectionString("DefaultConnection"));
 builder.Services.AddSingleton(mySQLConfiguration);
 builder.Services.AddScoped<IPersonasRepo, PersonasRepo>();
+builder.Services.AddScoped<ISeguimientosRepo, SeguimientosRepo>();
 
 var config = new MapperConfiguration(mC =>
 {

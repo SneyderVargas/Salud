@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SeguimientoDNT.Core.Moldes
 {
-    internal class Seguimientos
+    public class Seguimientos
     {
         public int IdSeguimiento { get; set; }
         public int IdPersona { get; set; }
