@@ -16,27 +16,15 @@ namespace SeguimientoDNT.Api.Controllers
     {
         private readonly IMapper _mapper;
         private readonly IPersonasRepo _personasRepo;
+        private readonly IValidationTableApi _validationTableApi;
 
-        public PersonasController(IMapper mapper, IPersonasRepo personasRepo)
+        public PersonasController(IMapper mapper, IPersonasRepo personasRepo, IValidationTableApi validationTableApi)
         {
             _mapper = mapper;
             _personasRepo = personasRepo;
+            _validationTableApi = validationTableApi;
         }
-        [HttpGet]
-        public async Task<IActionResult> GetPerGetPruebassona()
-        {
-            try
-            {
-                var client = new HttpClient();
-                var apiClient = new Client(client);
-                var item = await apiClient.AnonymousAsync("Sexo");
-                return Ok(null);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
+
         [HttpGet]
         public async Task<IActionResult> GetPersona([FromQuery] IdRequest param)
         {
@@ -59,8 +47,12 @@ namespace SeguimientoDNT.Api.Controllers
         {
             try 
             {
+                
                 if (!ModelState.IsValid)
                     return BadRequest(ModelState);
+                var (SucceededTable, MessageTable) = await _validationTableApi.IsTable("TipoIdDemo", param.TipoIdentificacion);
+                if (SucceededTable != true)
+                    return BadRequest("Validar la Informacion que esta enviando para: " + MessageTable);
                 Personas data = _mapper.Map<Personas>(param);
                 var (Succeeded, Message) = await _personasRepo.SetPersona(data);
                 if (!Succeeded)

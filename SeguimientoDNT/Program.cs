@@ -18,6 +18,8 @@ var mySQLConfiguration = new DbContext(builder.Configuration.GetConnectionString
 builder.Services.AddSingleton(mySQLConfiguration);
 builder.Services.AddScoped<IPersonasRepo, PersonasRepo>();
 builder.Services.AddScoped<ISeguimientosRepo, SeguimientosRepo>();
+builder.Services.AddScoped<IValidationTableApi, ValidationTableApi>();
+
 
 var config = new MapperConfiguration(mC =>
 {

@@ -13,3 +13,5 @@ C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\obj\Debug\net7
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\obj\Debug\net7.0\refint\SeguimientoDNT.Infra.dll
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.pdb
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\obj\Debug\net7.0\ref\SeguimientoDNT.Infra.dll
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\bin\Debug\net7.0\ApiCliente.dll
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\bin\Debug\net7.0\ApiCliente.pdb
