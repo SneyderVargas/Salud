@@ -49,13 +49,13 @@ namespace SeguimientoDNT.Api.Controllers
             {
                 if (!ModelState.IsValid)
                     return BadRequest(ModelState);
-                //var (SucceededTable0, MessageTable0) = await _validationTableApi.IsTable("CodSedeIPSDemo", param.CodLugarAtencion);
-                //var (SucceededTable1, MessageTable1) = await _validationTableApi.IsTable("DNTClasificacionNutricional", param.CodClasificacionNutricional);
-                //var (SucceededTable2, MessageTable2) = await _validationTableApi.IsTable("DNTManejo", param.CodManejoActual);
-                //var (SucceededTable3, MessageTable3) = await _validationTableApi.IsTable("DNTUbicacion", param.CodUbicacion);
-                //var (SucceededTable4, MessageTable4) = await _validationTableApi.IsTable("DNTTratamiento", param.CodTratamiento);
-                //if (SucceededTable0 != true || SucceededTable1 != true || SucceededTable2 != true || SucceededTable3 != true)
-                //    return BadRequest("Validar la Informacion que esta enviando, por favor validar los codigo como los son, TipoIdDemo, Sexo, Municipio y AseguradorDemo");
+                var (SucceededTable0, MessageTable0) = await _validationTableApi.IsTable("CodSedeIPSDemo", param.CodLugarAtencion);
+                var (SucceededTable1, MessageTable1) = await _validationTableApi.IsTable("DNTClasificacionNutricional", param.CodClasificacionNutricional);
+                var (SucceededTable2, MessageTable2) = await _validationTableApi.IsTable("DNTManejo", param.CodManejoActual);
+                var (SucceededTable3, MessageTable3) = await _validationTableApi.IsTable("DNTUbicacion", param.CodUbicacion);
+                var (SucceededTable4, MessageTable4) = await _validationTableApi.IsTable("DNTTratamiento", param.CodTratamiento);
+                if (SucceededTable0 != true || SucceededTable1 != true || SucceededTable2 != true || SucceededTable3 != true)
+                    return BadRequest("Validar la Informacion que esta enviando, por favor validar los codigo como los son, TipoIdDemo, Sexo, Municipio y AseguradorDemo");
                 Seguimientos data = _mapper.Map<Seguimientos>(param);
                 var (Succeeded, Message) = await _seguimientosRepo.SetSeguimiento(data);
                 if (!Succeeded)
