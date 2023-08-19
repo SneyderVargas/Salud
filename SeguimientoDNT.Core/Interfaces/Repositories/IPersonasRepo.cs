@@ -10,9 +10,11 @@ namespace SeguimientoDNT.Core.Interfaces.Repositories
 {
     public interface IPersonasRepo
     {
-        Task<IEnumerable<Personas>> GetPersonas();
         Task<Personas> GetPersona(IdRequest param);
-        Task<(bool Succeeded, string Message)> UpdatePersona(Personas personas);
-        Task<(bool Succeeded, string Message)> SetPersonas(Personas personas);
+        Task<IEnumerable<Personas>> GetPersonas();
+        Task<(bool Succeeded, string Message)> SetPersona(Personas personas);
+        Task<(bool Succeeded, string Message)> UpdatePersona(Personas personas, int IdPersona);
+        Task<(bool Succeeded, string Message)> DeletePersona(IdRequest param);
+
     }
 }

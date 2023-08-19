@@ -9,6 +9,7 @@ namespace SeguimientoDNT.Api.Helpers
         public AutoMapperProfile()
         {
             CreateMap<Personas, PersonaRequest>().ReverseMap();
+            CreateMap<Personas, PersonaRequestUpdate>().ReverseMap();
         }
     }
 }

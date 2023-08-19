@@ -10,7 +10,7 @@ using SeguimientoDNT.Core.Moldes;
 namespace SeguimientoDNT.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]/[action]")]
     public class PersonasController : Controller
     {
         private readonly IMapper _mapper;
@@ -39,19 +39,57 @@ namespace SeguimientoDNT.Api.Controllers
             return Ok(await _personasRepo.GetPersonas());
         }
         [HttpPost]
-        public async Task<IActionResult> SetPersonas([FromBody] PersonaRequest param)
+        public async Task<IActionResult> SetPersona([FromBody] PersonaRequest param)
         {
             try 
             {
                 if (!ModelState.IsValid)
                     return BadRequest(ModelState);
                 Personas data = _mapper.Map<Personas>(param);
-                var (Succeeded, Message) = await _personasRepo.SetPersonas(data);
+                var (Succeeded, Message) = await _personasRepo.SetPersona(data);
                 if (!Succeeded)
                     return BadRequest(Message);
                 return Ok(Message);
             }
             catch (Exception ex) 
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdatePersona([FromBody] PersonaRequestUpdate param )
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                    return BadRequest(ModelState);
+                Personas data = _mapper.Map<Personas>(param);
+                var IdPersona = param.IdPersona;
+                var (Succeeded, Message) = await _personasRepo.UpdatePersona(data, IdPersona);
+                if (!Succeeded)
+                    return BadRequest(Message);
+                return Ok(Message);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeletePersona([FromBody] IdRequest param)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                    return BadRequest(ModelState);
+                var (Succeeded, Message) = await _personasRepo.DeletePersona(param);
+                if (!Succeeded)
+                    return BadRequest(Message);
+                return Ok(Message);
+            }
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
