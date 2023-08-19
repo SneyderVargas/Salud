@@ -6,6 +6,7 @@ using SeguimientoDNT.Core.Dtos.Persona;
 using SeguimientoDNT.Core.Dtos;
 using SeguimientoDNT.Core.Interfaces.Repositories;
 using SeguimientoDNT.Core.Moldes;
+using ApiCliente;
 
 namespace SeguimientoDNT.Api.Controllers
 {
@@ -20,6 +21,21 @@ namespace SeguimientoDNT.Api.Controllers
         {
             _mapper = mapper;
             _personasRepo = personasRepo;
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetPerGetPruebassona()
+        {
+            try
+            {
+                var client = new HttpClient();
+                var apiClient = new Client(client);
+                var item = await apiClient.AnonymousAsync("Sexo");
+                return Ok(null);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
         [HttpGet]
         public async Task<IActionResult> GetPersona([FromQuery] IdRequest param)

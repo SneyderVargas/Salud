@@ -20,5 +20,11 @@ namespace SeguimientoDNT.Core.Moldes
         public string CodClasificacionNutricional { get; set; }
         public string CodManejoActual { get; set; }
         public string DesManejo { get; set; }
+        public string CodUbicacion { get; set; }
+        public string DesUbicacion { get; set; }
+        public string CodTratamiento { get; set; }
+        public int TotalSobresFTLC { get; set; }
+        public string OtroTratamiento { get; set; }
+        public DateTime? FechaRegistro { get; set; }
     }
 }

@@ -908,6 +908,19 @@
           "lib/net7.0/ZstdSharp.dll": {}
         }
       },
+      "ApiCliente/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/ApiCliente.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiCliente.dll": {}
+        }
+      },
       "SeguimientoDNT.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -926,7 +939,6 @@
           "Microsoft.EntityFrameworkCore": "7.0.10",
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
           "MySql.Data": "8.1.0",
-          "Newtonsoft.Json": "13.0.3",
           "SeguimientoDNT.Core": "1.0.0"
         },
         "compile": {
@@ -2990,6 +3002,11 @@
         "zstdsharp.port.nuspec"
       ]
     },
+    "ApiCliente/1.0.0": {
+      "type": "project",
+      "path": "../ApiCliente/ApiCliente.csproj",
+      "msbuildProject": "../ApiCliente/ApiCliente.csproj"
+    },
     "SeguimientoDNT.Core/1.0.0": {
       "type": "project",
       "path": "../SeguimientoDNT.Core/SeguimientoDNT.Core.csproj",
@@ -3003,6 +3020,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "ApiCliente >= 1.0.0",
       "AutoMapper >= 11.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.10",
       "MySql.Data >= 8.1.0",
@@ -3037,6 +3055,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\ApiCliente\\ApiCliente.csproj": {
+              "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\ApiCliente\\ApiCliente.csproj"
+            },
             "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj": {
               "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj"
             },

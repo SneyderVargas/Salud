@@ -1,0 +1,12 @@
+C:\Users\sneyder\source\repos\SeguimientoDNT\ApiCliente\bin\Debug\net7.0\ApiCliente.deps.json
+C:\Users\sneyder\source\repos\SeguimientoDNT\ApiCliente\bin\Debug\net7.0\ApiCliente.dll
+C:\Users\sneyder\source\repos\SeguimientoDNT\ApiCliente\bin\Debug\net7.0\ApiCliente.pdb
+C:\Users\sneyder\source\repos\SeguimientoDNT\ApiCliente\obj\Debug\net7.0\ApiCliente.csproj.AssemblyReference.cache
+C:\Users\sneyder\source\repos\SeguimientoDNT\ApiCliente\obj\Debug\net7.0\ApiCliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sneyder\source\repos\SeguimientoDNT\ApiCliente\obj\Debug\net7.0\ApiCliente.AssemblyInfoInputs.cache
+C:\Users\sneyder\source\repos\SeguimientoDNT\ApiCliente\obj\Debug\net7.0\ApiCliente.AssemblyInfo.cs
+C:\Users\sneyder\source\repos\SeguimientoDNT\ApiCliente\obj\Debug\net7.0\ApiCliente.csproj.CoreCompileInputs.cache
+C:\Users\sneyder\source\repos\SeguimientoDNT\ApiCliente\obj\Debug\net7.0\ApiCliente.dll
+C:\Users\sneyder\source\repos\SeguimientoDNT\ApiCliente\obj\Debug\net7.0\refint\ApiCliente.dll
+C:\Users\sneyder\source\repos\SeguimientoDNT\ApiCliente\obj\Debug\net7.0\ApiCliente.pdb
+C:\Users\sneyder\source\repos\SeguimientoDNT\ApiCliente\obj\Debug\net7.0\ref\ApiCliente.dll

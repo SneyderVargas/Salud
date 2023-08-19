@@ -34,5 +34,17 @@ namespace SeguimientoDNT.Core.Dtos.Persona
         public string CodManejoActual { get; set; }
         [Required(ErrorMessage = SecurityMsg.RequiredDefault)]
         public string DesManejo { get; set; }
+        [Required(ErrorMessage = SecurityMsg.RequiredDefault)]
+        public string CodUbicacion { get; set; }
+        [Required(ErrorMessage = SecurityMsg.RequiredDefault)]
+        public string DesUbicacion { get; set; }
+        [Required(ErrorMessage = SecurityMsg.RequiredDefault)]
+        public string CodTratamiento { get; set; }
+        [Required(ErrorMessage = SecurityMsg.RequiredDefault)]
+        public int TotalSobresFTLC { get; set; }
+        [Required(ErrorMessage = SecurityMsg.RequiredDefault)]
+        public string OtroTratamiento { get; set; }
+        [Required(ErrorMessage = SecurityMsg.RequiredDefault)]
+        public DateTime? FechaRegistro { get; set; }
     }
 }

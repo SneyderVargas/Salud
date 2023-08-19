@@ -28,8 +28,8 @@ namespace SeguimientoDNT.Infra.Repositories
             try
             {
                 var db = dbConnection();
-                var sql = @"SELECT IdSeguimiento, IdPersona, EstadoVital, FechaDefuncion, UbicacionDefuncion, CodLugarAtencion, FechaAtencion, PesoKg, TallaCm, CodClasificacionNutricional, CodManejoActual, DesManejo FROM Seguimientos;";
-                return await db.QueryFirstOrDefaultAsync<Seguimientos>(sql, new { IdPersona = param.Id });
+                var sql = @"SELECT IdSeguimiento, IdPersona, EstadoVital, FechaDefuncion, UbicacionDefuncion, CodLugarAtencion, FechaAtencion, PesoKg, TallaCm, CodClasificacionNutricional, CodManejoActual, DesManejo, CodUbicacion, DesUbicacion, CodTratamiento, TotalSobresFTLC, OtroTratamiento, FechaRegistro FROM Seguimientos WHERE IdSeguimiento = @IdSeguimiento ;";
+                return await db.QueryFirstOrDefaultAsync<Seguimientos>(sql, new { IdSeguimiento = param.Id });
             }
             catch (Exception ex)
             {
@@ -43,7 +43,7 @@ namespace SeguimientoDNT.Infra.Repositories
             try
             {
                 var db = dbConnection();
-                var sql = @"SELECT IdSeguimiento, IdPersona, EstadoVital, FechaDefuncion, UbicacionDefuncion, CodLugarAtencion, FechaAtencion, PesoKg, TallaCm, CodClasificacionNutricional, CodManejoActual, DesManejo FROM Seguimientos;";
+                var sql = @"SELECT IdSeguimiento, IdPersona, EstadoVital, FechaDefuncion, UbicacionDefuncion, CodLugarAtencion, FechaAtencion, PesoKg, TallaCm, CodClasificacionNutricional, CodManejoActual, DesManejo, CodUbicacion, DesUbicacion, CodTratamiento, TotalSobresFTLC, OtroTratamiento, FechaRegistro FROM Seguimientos ;";
                 return db.QueryAsync<Seguimientos>(sql, new { });
             }
             catch (Exception ex)
@@ -56,7 +56,7 @@ namespace SeguimientoDNT.Infra.Repositories
         {
             try {
                 var db = dbConnection();
-                var sql = @"INSERT INTO seguimientos (IdPersona, EstadoVital, FechaDefuncion, UbicacionDefuncion, CodLugarAtencion, FechaAtencion, PesoKg, TallaCm, CodClasificacionNutricional, CodManejoActual, DesManejo) VALUES ( @IdPersona, @EstadoVital, @FechaDefuncion, @UbicacionDefuncion, @CodLugarAtencion, @FechaAtencion, @PesoKg, @TallaCm, @CodClasificacionNutricional, @CodManejoActual, @DesManejo);";
+                var sql = @"INSERT INTO seguimientos (IdPersona, EstadoVital, FechaDefuncion, UbicacionDefuncion, CodLugarAtencion, FechaAtencion, PesoKg, TallaCm, CodClasificacionNutricional, CodManejoActual, DesManejo, CodUbicacion, DesUbicacion, CodTratamiento, TotalSobresFTLC, OtroTratamiento, FechaRegistro) VALUES ( @IdPersona, @EstadoVital, @FechaDefuncion, @UbicacionDefuncion, @CodLugarAtencion, @FechaAtencion, @PesoKg, @TallaCm, @CodClasificacionNutricional, @CodManejoActual, @DesManejo, @CodUbicacion, @DesUbicacion, @CodTratamiento, @TotalSobresFTLC, @OtroTratamiento, @FechaRegistro);";
                 var result = await db.ExecuteAsync(sql, new {
                     seguimiento.IdPersona,
                     seguimiento.EstadoVital,
@@ -68,7 +68,13 @@ namespace SeguimientoDNT.Infra.Repositories
                     seguimiento.TallaCm,
                     seguimiento.CodClasificacionNutricional,
                     seguimiento.CodManejoActual,
-                    seguimiento.DesManejo
+                    seguimiento.DesManejo,
+                    seguimiento.CodUbicacion,
+                    seguimiento.DesUbicacion,
+                    seguimiento.CodTratamiento,
+                    seguimiento.TotalSobresFTLC,
+                    seguimiento.OtroTratamiento,
+                    seguimiento.FechaRegistro
                 });
                 return (true, "Exito Creando Registro");
             } catch (Exception ex) { 
@@ -81,7 +87,7 @@ namespace SeguimientoDNT.Infra.Repositories
             try
             {
                 var db = dbConnection();
-                var sql = @"UPDATE seguimientos SET IdPersona = @IdPersona, EstadoVital = @EstadoVital, FechaDefuncion = @FechaDefuncion, UbicacionDefuncion = @UbicacionDefuncion, CodLugarAtencion = @CodLugarAtencion, FechaAtencion = @FechaAtencion, PesoKg = @PesoKg, TallaCm = @TallaCm, CodClasificacionNutricional = @CodClasificacionNutricional, CodManejoActual = @CodManejoActual, DesManejo = @DesManejo WHERE (IdSeguimiento = @Id);";
+                var sql = @"UPDATE seguimientos SET IdPersona = @IdPersona, EstadoVital = @EstadoVital, FechaDefuncion = @FechaDefuncion, UbicacionDefuncion = @UbicacionDefuncion, CodLugarAtencion = @CodLugarAtencion, FechaAtencion = @FechaAtencion, PesoKg = @PesoKg, TallaCm = @TallaCm, CodClasificacionNutricional = @CodClasificacionNutricional, CodManejoActual = @CodManejoActual, DesManejo = @DesManejo, CodUbicacion = @CodUbicacion, DesUbicacion = @DesUbicacion, CodTratamiento = @CodTratamiento, TotalSobresFTLC = @TotalSobresFTLC, OtroTratamiento = @OtroTratamiento, FechaRegistro = @FechaRegistro WHERE (IdSeguimiento = @Id);";
                 var result = await db.ExecuteAsync(sql, new
                 {
                     seguimientos.IdPersona,
@@ -95,6 +101,12 @@ namespace SeguimientoDNT.Infra.Repositories
                     seguimientos.CodClasificacionNutricional,
                     seguimientos.CodManejoActual,
                     seguimientos.DesManejo,
+                    seguimientos.CodUbicacion,
+                    seguimientos.DesUbicacion,
+                    seguimientos.CodTratamiento,
+                    seguimientos.TotalSobresFTLC,
+                    seguimientos.OtroTratamiento,
+                    seguimientos.FechaRegistro,
                     Id
                 });
                 return (true, "Exito Actualizando Registro");
