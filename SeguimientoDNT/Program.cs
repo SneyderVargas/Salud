@@ -1,4 +1,6 @@
+using AutoMapper;
 using MySql.Data.MySqlClient;
+using SeguimientoDNT.Api.Helpers;
 using SeguimientoDNT.Core.Interfaces.Repositories;
 using SeguimientoDNT.Infra;
 using SeguimientoDNT.Infra.Repositories;
@@ -15,6 +17,14 @@ builder.Services.AddSwaggerGen();
 var mySQLConfiguration = new DbContext(builder.Configuration.GetConnectionString("DefaultConnection"));
 builder.Services.AddSingleton(mySQLConfiguration);
 builder.Services.AddScoped<IGrertingsRepo, GrertingsRepo>();
+builder.Services.AddScoped<IPersonasRepo, PersonasRepo>();
+
+var config = new MapperConfiguration(mC =>
+{
+    mC.AddProfile(new AutoMapperProfile());
+});
+var mapper = config.CreateMapper();
+builder.Services.AddSingleton(mapper);
 
 var app = builder.Build();
 

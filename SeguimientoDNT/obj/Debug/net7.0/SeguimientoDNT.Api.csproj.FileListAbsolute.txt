@@ -5,6 +5,7 @@ C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\Seg
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\SeguimientoDNT.Api.runtimeconfig.json
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\SeguimientoDNT.Api.dll
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\SeguimientoDNT.Api.pdb
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\Dapper.dll
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\Google.Protobuf.dll
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\K4os.Compression.LZ4.dll
@@ -16,6 +17,7 @@ C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\Mic
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\BouncyCastle.Crypto.dll
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll

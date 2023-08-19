@@ -1,4 +1,5 @@
-﻿using SeguimientoDNT.Core.Moldes;
+﻿using SeguimientoDNT.Core.Dtos;
+using SeguimientoDNT.Core.Moldes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace SeguimientoDNT.Core.Interfaces.Repositories
     public interface IPersonasRepo
     {
         Task<IEnumerable<Personas>> GetPersonas();
-        Task<IEnumerable<Personas>> GetPersona(int id);
+        Task<Personas> GetPersona(IdRequest param);
         Task<(bool Succeeded, string Message)> UpdatePersona(Personas personas);
         Task<(bool Succeeded, string Message)> SetPersonas(Personas personas);
     }

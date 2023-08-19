@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using MySql.Data.MySqlClient;
+using SeguimientoDNT.Core.Dtos;
 using SeguimientoDNT.Core.Interfaces.Repositories;
 using SeguimientoDNT.Core.Moldes;
 using System;
@@ -22,21 +23,42 @@ namespace SeguimientoDNT.Infra.Repositories
             return new MySqlConnection(_connectionString.ConnectionString);
         }
 
-        public Task<IEnumerable<Personas>> GetPersona(int id)
+        public async Task<Personas> GetPersona(IdRequest param)
         {
-            throw new NotImplementedException();
+            var db = dbConnection();
+            var sql = @"SELECT IdPersona, TipoIdentificacion, NroIdentificacion, PrimerNombre, SegundoNombre, PrimerApellido, SegundoApellido, Sexo, FechaNacimiento, CodMpioResidencia, CodAsegurador, FechaRegistro FROM Personas WHERE IdPersona = @IdPersona";
+            return await db.QueryFirstOrDefaultAsync<Personas>(sql, new { IdPersona = param.Id });
         }
 
         public Task<IEnumerable<Personas>> GetPersonas()
         {
             var db = dbConnection();
-            var sql = @"SELECT * FROM db_proyect.seguimientos;";
+            var sql = @"SELECT IdPersona, TipoIdentificacion, NroIdentificacion, PrimerNombre, SegundoNombre, PrimerApellido, SegundoApellido, Sexo, FechaNacimiento, CodMpioResidencia, CodAsegurador, FechaRegistro FROM Personas";
             return db.QueryAsync<Personas>(sql, new { });
         }
 
-        public Task<(bool Succeeded, string Message)> SetPersonas(Personas personas)
+        public async Task<(bool Succeeded, string Message)> SetPersonas(Personas personas)
         {
-            throw new NotImplementedException();
+            try {
+                var db = dbConnection();
+                var sql = @"INSERT INTO personas (TipoIdentificacion, NroIdentificacion, PrimerNombre, SegundoNombre, PrimerApellido, SegundoApellido, Sexo, FechaNacimiento, CodMpioResidencia, CodAsegurador, FechaRegistro) VALUES (@TipoIdentificacion, @NroIdentificacion, @PrimerNombre, @SegundoNombre, @PrimerApellido, @SegundoApellido, @Sexo, @FechaNacimiento, @CodMpioResidencia, @CodAsegurador, @FechaRegistro);";
+                var result = await db.ExecuteAsync(sql, new {
+                    personas.TipoIdentificacion,
+                    personas.NroIdentificacion,
+                    personas.PrimerNombre,
+                    personas.SegundoNombre,
+                    personas.PrimerApellido,
+                    personas.SegundoApellido,
+                    personas.Sexo,
+                    personas.FechaNacimiento,
+                    personas.CodMpioResidencia,
+                    personas.CodAsegurador,
+                    personas.FechaRegistro
+                });
+                return (true, "Exito");
+            } catch (Exception ex) { 
+                return (false, ex.Message); 
+            }
         }
 
         public Task<(bool Succeeded, string Message)> UpdatePersona(Personas personas)
