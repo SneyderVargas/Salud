@@ -10,3 +10,15 @@ C:\Users\sneyder\source\repos\SeguimientoDNT\ApiCliente\obj\Debug\net7.0\ApiClie
 C:\Users\sneyder\source\repos\SeguimientoDNT\ApiCliente\obj\Debug\net7.0\refint\ApiCliente.dll
 C:\Users\sneyder\source\repos\SeguimientoDNT\ApiCliente\obj\Debug\net7.0\ApiCliente.pdb
 C:\Users\sneyder\source\repos\SeguimientoDNT\ApiCliente\obj\Debug\net7.0\ref\ApiCliente.dll
+F:\Sneyder\proyectos\c .net\Salud\ApiCliente\bin\Debug\net7.0\ApiCliente.deps.json
+F:\Sneyder\proyectos\c .net\Salud\ApiCliente\bin\Debug\net7.0\ApiCliente.dll
+F:\Sneyder\proyectos\c .net\Salud\ApiCliente\bin\Debug\net7.0\ApiCliente.pdb
+F:\Sneyder\proyectos\c .net\Salud\ApiCliente\obj\Debug\net7.0\ApiCliente.csproj.AssemblyReference.cache
+F:\Sneyder\proyectos\c .net\Salud\ApiCliente\obj\Debug\net7.0\ApiCliente.GeneratedMSBuildEditorConfig.editorconfig
+F:\Sneyder\proyectos\c .net\Salud\ApiCliente\obj\Debug\net7.0\ApiCliente.AssemblyInfoInputs.cache
+F:\Sneyder\proyectos\c .net\Salud\ApiCliente\obj\Debug\net7.0\ApiCliente.AssemblyInfo.cs
+F:\Sneyder\proyectos\c .net\Salud\ApiCliente\obj\Debug\net7.0\ApiCliente.csproj.CoreCompileInputs.cache
+F:\Sneyder\proyectos\c .net\Salud\ApiCliente\obj\Debug\net7.0\ApiCliente.dll
+F:\Sneyder\proyectos\c .net\Salud\ApiCliente\obj\Debug\net7.0\refint\ApiCliente.dll
+F:\Sneyder\proyectos\c .net\Salud\ApiCliente\obj\Debug\net7.0\ApiCliente.pdb
+F:\Sneyder\proyectos\c .net\Salud\ApiCliente\obj\Debug\net7.0\ref\ApiCliente.dll

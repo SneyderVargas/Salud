@@ -2,3 +2,14 @@ C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Core\obj\Debug\net7.
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Core\obj\Debug\net7.0\SeguimientoDNT.Core.AssemblyInfoInputs.cache
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Core\obj\Debug\net7.0\SeguimientoDNT.Core.AssemblyInfo.cs
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Core\obj\Debug\net7.0\SeguimientoDNT.Core.csproj.CoreCompileInputs.cache
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Core\bin\Debug\net7.0\SeguimientoDNT.Core.deps.json
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Core\bin\Debug\net7.0\SeguimientoDNT.Core.dll
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Core\bin\Debug\net7.0\SeguimientoDNT.Core.pdb
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Core\obj\Debug\net7.0\SeguimientoDNT.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Core\obj\Debug\net7.0\SeguimientoDNT.Core.AssemblyInfoInputs.cache
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Core\obj\Debug\net7.0\SeguimientoDNT.Core.AssemblyInfo.cs
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Core\obj\Debug\net7.0\SeguimientoDNT.Core.csproj.CoreCompileInputs.cache
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Core\obj\Debug\net7.0\SeguimientoDNT.Core.dll
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Core\obj\Debug\net7.0\refint\SeguimientoDNT.Core.dll
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Core\obj\Debug\net7.0\SeguimientoDNT.Core.pdb
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Core\obj\Debug\net7.0\ref\SeguimientoDNT.Core.dll

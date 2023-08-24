@@ -7,6 +7,7 @@ using SeguimientoDNT.Core.Dtos;
 using SeguimientoDNT.Core.Interfaces.Repositories;
 using SeguimientoDNT.Core.Moldes;
 using ApiCliente;
+using ExportXml;
 
 namespace SeguimientoDNT.Api.Controllers
 {
@@ -17,12 +18,14 @@ namespace SeguimientoDNT.Api.Controllers
         private readonly IMapper _mapper;
         private readonly IPersonasRepo _personasRepo;
         private readonly IValidationTableApi _validationTableApi;
+        private readonly ISeguimientosRepo _seguimientosRepo;
 
-        public PersonasController(IMapper mapper, IPersonasRepo personasRepo, IValidationTableApi validationTableApi)
+        public PersonasController(IMapper mapper, IPersonasRepo personasRepo, IValidationTableApi validationTableApi, ISeguimientosRepo seguimientosRepo)
         {
             _mapper = mapper;
             _personasRepo = personasRepo;
             _validationTableApi = validationTableApi;
+            _seguimientosRepo = seguimientosRepo;
         }
 
         [HttpGet]
@@ -99,6 +102,34 @@ namespace SeguimientoDNT.Api.Controllers
                 if (!Succeeded)
                     return BadRequest(Message);
                 return Ok(Message);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+        [HttpPost]
+        public async Task<IActionResult> ExpSeguimientos()
+        {
+            try
+            {
+
+                var personas = await _personasRepo.GetPersonas();
+                var seguimientos = await _seguimientosRepo.GetSeguimientos();
+                if (personas == null)
+                    return BadRequest(ModelState);
+
+                var excelGenerator = new Excel<Personas>();
+
+                var listaDatos = new List<Personas>(personas);
+                excelGenerator.Crear(listaDatos, "Personas");
+
+                var otraListaDatos = new List<Seguimientos>(seguimientos);
+                excelGenerator.AgregarHoja(otraListaDatos, "Seguimientos");
+
+                string excelBase64 = excelGenerator.ExportarBase64();
+
+                return Ok(excelBase64);
             }
             catch (Exception ex)
             {

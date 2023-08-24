@@ -3,3 +3,20 @@ C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\obj\Debug\net7
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.AssemblyInfoInputs.cache
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.AssemblyInfo.cs
 C:\Users\sneyder\source\repos\SeguimientoDNT\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.csproj.CoreCompileInputs.cache
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Infra\bin\Debug\net7.0\SeguimientoDNT.Infra.deps.json
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Infra\bin\Debug\net7.0\SeguimientoDNT.Infra.dll
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Infra\bin\Debug\net7.0\SeguimientoDNT.Infra.pdb
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Infra\bin\Debug\net7.0\ApiCliente.dll
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Infra\bin\Debug\net7.0\SeguimientoDNT.Core.dll
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Infra\bin\Debug\net7.0\ApiCliente.pdb
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Infra\bin\Debug\net7.0\SeguimientoDNT.Core.pdb
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.csproj.AssemblyReference.cache
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.GeneratedMSBuildEditorConfig.editorconfig
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.AssemblyInfoInputs.cache
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.AssemblyInfo.cs
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.csproj.CoreCompileInputs.cache
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.csproj.CopyComplete
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.dll
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Infra\obj\Debug\net7.0\refint\SeguimientoDNT.Infra.dll
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Infra\obj\Debug\net7.0\SeguimientoDNT.Infra.pdb
+F:\Sneyder\proyectos\c .net\Salud\SeguimientoDNT.Infra\obj\Debug\net7.0\ref\SeguimientoDNT.Infra.dll

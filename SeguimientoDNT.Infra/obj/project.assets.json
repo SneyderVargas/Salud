@@ -2447,11 +2447,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj",
+      "projectUniqueName": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj",
       "projectName": "SeguimientoDNT.Infra",
-      "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj",
+      "projectPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj",
       "packagesPath": "C:\\Users\\sneyder\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Infra\\obj\\",
+      "outputPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sneyder\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2467,11 +2467,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\ApiCliente\\ApiCliente.csproj": {
-              "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\ApiCliente\\ApiCliente.csproj"
+            "F:\\Sneyder\\proyectos\\c .net\\Salud\\ApiCliente\\ApiCliente.csproj": {
+              "projectPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\ApiCliente\\ApiCliente.csproj"
             },
-            "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj": {
-              "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj"
+            "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj": {
+              "projectPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj"
             }
           }
         }

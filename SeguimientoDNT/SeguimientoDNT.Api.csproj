@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ApiCliente\ApiCliente.csproj" />
+    <ProjectReference Include="..\ExportXml\ExportXml.csproj" />
     <ProjectReference Include="..\SeguimientoDNT.Core\SeguimientoDNT.Core.csproj" />
     <ProjectReference Include="..\SeguimientoDNT.Infra\SeguimientoDNT.Infra.csproj" />
   </ItemGroup>

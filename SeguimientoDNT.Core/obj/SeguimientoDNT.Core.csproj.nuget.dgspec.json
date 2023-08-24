@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj": {}
+    "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj": {
+    "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj",
+        "projectUniqueName": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj",
         "projectName": "SeguimientoDNT.Core",
-        "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj",
+        "projectPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj",
         "packagesPath": "C:\\Users\\sneyder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\obj\\",
+        "outputPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sneyder\\AppData\\Roaming\\NuGet\\NuGet.Config",

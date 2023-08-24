@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT\\SeguimientoDNT.Api.csproj": {}
+    "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT\\SeguimientoDNT.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\ApiCliente\\ApiCliente.csproj": {
+    "F:\\Sneyder\\proyectos\\c .net\\Salud\\ApiCliente\\ApiCliente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\ApiCliente\\ApiCliente.csproj",
+        "projectUniqueName": "F:\\Sneyder\\proyectos\\c .net\\Salud\\ApiCliente\\ApiCliente.csproj",
         "projectName": "ApiCliente",
-        "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\ApiCliente\\ApiCliente.csproj",
+        "projectPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\ApiCliente\\ApiCliente.csproj",
         "packagesPath": "C:\\Users\\sneyder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\ApiCliente\\obj\\",
+        "outputPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\ApiCliente\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sneyder\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,74 @@
         }
       }
     },
-    "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj": {
+    "F:\\Sneyder\\proyectos\\c .net\\Salud\\ExportXml\\ExportXml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj",
-        "projectName": "SeguimientoDNT.Core",
-        "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj",
+        "projectUniqueName": "F:\\Sneyder\\proyectos\\c .net\\Salud\\ExportXml\\ExportXml.csproj",
+        "projectName": "ExportXml",
+        "projectPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\ExportXml\\ExportXml.csproj",
         "packagesPath": "C:\\Users\\sneyder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\obj\\",
+        "outputPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\ExportXml\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sneyder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.102.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj",
+        "projectName": "SeguimientoDNT.Core",
+        "projectPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj",
+        "packagesPath": "C:\\Users\\sneyder\\.nuget\\packages\\",
+        "outputPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sneyder\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -118,14 +178,14 @@
         }
       }
     },
-    "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj": {
+    "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj",
+        "projectUniqueName": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj",
         "projectName": "SeguimientoDNT.Infra",
-        "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj",
+        "projectPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj",
         "packagesPath": "C:\\Users\\sneyder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Infra\\obj\\",
+        "outputPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sneyder\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -141,11 +201,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\ApiCliente\\ApiCliente.csproj": {
-                "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\ApiCliente\\ApiCliente.csproj"
+              "F:\\Sneyder\\proyectos\\c .net\\Salud\\ApiCliente\\ApiCliente.csproj": {
+                "projectPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\ApiCliente\\ApiCliente.csproj"
               },
-              "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj": {
-                "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj"
+              "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj": {
+                "projectPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj"
               }
             }
           }
@@ -197,14 +257,14 @@
         }
       }
     },
-    "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT\\SeguimientoDNT.Api.csproj": {
+    "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT\\SeguimientoDNT.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT\\SeguimientoDNT.Api.csproj",
+        "projectUniqueName": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT\\SeguimientoDNT.Api.csproj",
         "projectName": "SeguimientoDNT.Api",
-        "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT\\SeguimientoDNT.Api.csproj",
+        "projectPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT\\SeguimientoDNT.Api.csproj",
         "packagesPath": "C:\\Users\\sneyder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT\\obj\\",
+        "outputPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sneyder\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -220,14 +280,17 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\ApiCliente\\ApiCliente.csproj": {
-                "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\ApiCliente\\ApiCliente.csproj"
+              "F:\\Sneyder\\proyectos\\c .net\\Salud\\ApiCliente\\ApiCliente.csproj": {
+                "projectPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\ApiCliente\\ApiCliente.csproj"
               },
-              "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj": {
-                "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj"
+              "F:\\Sneyder\\proyectos\\c .net\\Salud\\ExportXml\\ExportXml.csproj": {
+                "projectPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\ExportXml\\ExportXml.csproj"
               },
-              "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj": {
-                "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj"
+              "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj": {
+                "projectPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Core\\SeguimientoDNT.Core.csproj"
+              },
+              "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj": {
+                "projectPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\SeguimientoDNT.Infra\\SeguimientoDNT.Infra.csproj"
               }
             }
           }

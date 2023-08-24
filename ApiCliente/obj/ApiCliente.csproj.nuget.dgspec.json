@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\ApiCliente\\ApiCliente.csproj": {}
+    "F:\\Sneyder\\proyectos\\c .net\\Salud\\ApiCliente\\ApiCliente.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\ApiCliente\\ApiCliente.csproj": {
+    "F:\\Sneyder\\proyectos\\c .net\\Salud\\ApiCliente\\ApiCliente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\ApiCliente\\ApiCliente.csproj",
+        "projectUniqueName": "F:\\Sneyder\\proyectos\\c .net\\Salud\\ApiCliente\\ApiCliente.csproj",
         "projectName": "ApiCliente",
-        "projectPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\ApiCliente\\ApiCliente.csproj",
+        "projectPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\ApiCliente\\ApiCliente.csproj",
         "packagesPath": "C:\\Users\\sneyder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\ApiCliente\\obj\\",
+        "outputPath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\ApiCliente\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sneyder\\AppData\\Roaming\\NuGet\\NuGet.Config",

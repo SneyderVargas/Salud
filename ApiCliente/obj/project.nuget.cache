@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wn+NC5wp30m58z/l0tcOAtcS6gnq7KNO1CsamhkHSimwnZj56CNyb++NThH0UQ8bU5FLmjtMsv6ugUr6wxyHNw==",
+  "dgSpecHash": "AMNyLaUF6F0VHaTPXYHEnKwC5cQEW7rKfJpuHsRZaV9Jk0xbCm3zrU2vpsC0HXH/WMNwOUH/VCXEQ7r7MJlekA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sneyder\\source\\repos\\SeguimientoDNT\\ApiCliente\\ApiCliente.csproj",
+  "projectFilePath": "F:\\Sneyder\\proyectos\\c .net\\Salud\\ApiCliente\\ApiCliente.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sneyder\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

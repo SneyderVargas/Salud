@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeguimientoDNT.Api", "SeguimientoDNT\SeguimientoDNT.Api.csproj", "{A6A596B7-333B-4AF3-8FDA-9BD912DCB904}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeguimientoDNT.Api", "SeguimientoDNT\SeguimientoDNT.Api.csproj", "{A6A596B7-333B-4AF3-8FDA-9BD912DCB904}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeguimientoDNT.Core", "SeguimientoDNT.Core\SeguimientoDNT.Core.csproj", "{B63BFCEC-2005-4F81-8C4A-2C9ED0BF9666}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeguimientoDNT.Core", "SeguimientoDNT.Core\SeguimientoDNT.Core.csproj", "{B63BFCEC-2005-4F81-8C4A-2C9ED0BF9666}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeguimientoDNT.Infra", "SeguimientoDNT.Infra\SeguimientoDNT.Infra.csproj", "{F2C846A4-07AF-4A7A-9998-2E7DE2E2BDFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeguimientoDNT.Infra", "SeguimientoDNT.Infra\SeguimientoDNT.Infra.csproj", "{F2C846A4-07AF-4A7A-9998-2E7DE2E2BDFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCliente", "ApiCliente\ApiCliente.csproj", "{1E44B2D4-271F-4364-9EFA-0F96953F4C7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCliente", "ApiCliente\ApiCliente.csproj", "{1E44B2D4-271F-4364-9EFA-0F96953F4C7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportXml", "ExportXml\ExportXml.csproj", "{F8FCA325-A283-4401-845B-C9A160266485}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1E44B2D4-271F-4364-9EFA-0F96953F4C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E44B2D4-271F-4364-9EFA-0F96953F4C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E44B2D4-271F-4364-9EFA-0F96953F4C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FCA325-A283-4401-845B-C9A160266485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FCA325-A283-4401-845B-C9A160266485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FCA325-A283-4401-845B-C9A160266485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FCA325-A283-4401-845B-C9A160266485}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
